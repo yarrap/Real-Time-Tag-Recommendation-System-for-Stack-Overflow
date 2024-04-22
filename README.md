@@ -51,15 +51,19 @@ Python
 Note: Make sure that the following files are present in the current directory - “questions.csv”, “tags.csv”
 ### Running the code with Python:
 The provided Python script orchestrates tag prediction for Stack Overflow questions using a Random Forest classifier. It begins by prepping the data, encoding tags, and transforming text into TF-IDF vectors. The script then trains the model, evaluates its accuracy on a test set, and records the overall runtime. Executing this script manages the entire workflow, from data preparation to model assessment, facilitating efficient tag prediction for Stack Overflow queries.
+
 Python
    python model_training_python_step_2.py
    
 Note: Make sure that the following file which is generated from the data preprocessing step to be present in the current directory - “data.csv”
 ### Running the code with Pyspark:
 The included PySpark script demonstrates tag prediction for Stack Overflow questions. It initiates a Spark session, preprocesses the data by tokenizing and converting text to TF-IDF vectors, then builds and evaluates a Random Forest classifier. Executing this script via PySpark manages the end-to-end process of data preparation, model creation, and evaluation for accurate tag prediction in Stack Overflow queries.
+
 Python
    python model_training_pyspark_step_3.py
+   
 Note: Make sure that the following file which is generated from the data preprocessing step to be present in the current directory - “data.csv”
+
 The above two methods have been implemented for comparing the runtime of the model training using python and pyspark.
 
 ### Model Testing:
@@ -67,6 +71,7 @@ The repository contains a Flask API that harmonizes PySpark and Spark NLP for da
 
 Python
    python model_testing_pyspark_step_4.py
+   
 Note: Make sure that the following file which is generated from the data preprocessing step to be present in the current directory - “data.csv”
 
 Upon running the provided command, a local server link will be generated. Accessing this link along with the endpoint path "/api/test" will yield the desired result.
