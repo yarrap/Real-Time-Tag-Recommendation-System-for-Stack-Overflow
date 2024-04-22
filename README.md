@@ -11,9 +11,13 @@ Specifications of training dataset: Count: 30M+ records Size: 3.5GB
 This is an example of how to list things you need to use the software and how to install them in mac.
 #### Install Homebrew (if not installed):
 Open Terminal and run the following command
+/bin/bash -c "$(curl -fsSL
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 #### Install Python:
 Once Homebrew is installed, use the following command in Terminal to install Python
 brew install python
+
 #### Install Java:
 Use the following command in Terminal to install AdoptOpenJDK
 brew install --cask adoptopenjdk
