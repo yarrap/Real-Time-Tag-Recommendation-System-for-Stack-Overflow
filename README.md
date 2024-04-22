@@ -4,7 +4,8 @@
 Our project focuses on crafting a tag recommendation system for Stack Overflow questions, leveraging the Stack Overflow Kaggle dataset. Using Spark and the Spark-NLP library, we've developed a robust machine learning model. This model predicts tags for questions, aiding users in discovering relevant content.
 ### Dataset:
 In order to train our model we will be using the Stack overflow kaggle dataset to evaluate the implementation. For the final presentation, we will be using real-time test data from Stack overflow API.
-Specifications of training dataset: Count: 30M+ records Size: 3.5GB
+
+** Specifications of training dataset:** Count: 30M+ records Size: 3.5GB
 
 ### Prerequisites:
 #### Installations:
