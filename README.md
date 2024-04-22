@@ -16,22 +16,27 @@ https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #### Install Python:
 Once Homebrew is installed, use the following command in Terminal to install Python
+
 brew install python
 
 #### Install Java:
 Use the following command in Terminal to install AdoptOpenJDK
+
 brew install --cask adoptopenjdk
 #### Install Scala:
 Use the following command in Terminal to install Scala
+
 brew install scala
 
 ### Apache Spark:
 Follow the below documentation to install apache spark https://sparkbyexamples.com/spark/install-apache-spark-on-mac/
 ### PySpark:
 Use the following command in Terminal to install Pyspark
+
 pip3 install pyspark
 ### Spark NLP:
 Use the following command in Terminal to install spark-nlp
+
 pip install spark-nlp
 ### NLTK:
 Use the following command in Terminal to install NLTK
