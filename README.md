@@ -44,6 +44,7 @@ Use the following command in Terminal to install NLTK
 pip install nltk
 ### Data Preprocessing:
 The data preprocessing phase begins by consolidating questions and their corresponding tags into a single DataFrame, filtering out questions with scores below 5 for relevance. All tags are converted to lowercase, and the most common 50 tags are identified. Filtering tags based on this commonality, the dataset is refined, retaining only the relevant tags. Additionally, text data undergoes extensive cleaning steps, including the removal of HTML, stopwords, special characters, and stemming. The 'Title' and 'Body' columns are individually preprocessed to optimize text data for further analysis. Finally, the processed data is exported to a CSV file for subsequent analysis and model development.
+
 Python
    python data_preprocessing_step_1.py
    
